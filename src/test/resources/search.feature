@@ -14,4 +14,5 @@ Feature: Search
     Examples:
       | searchTerm |
       | nike       |
+      | puma       |
 
