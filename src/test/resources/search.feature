@@ -7,11 +7,12 @@ Feature: Search
   Background:
     Given I am on home page
 
-    @smoke @live
+    @smoke @live @regg
   Scenario Outline: valid search
     When I search for a product "<searchTerm>"
     Then I should see all the product of "<searchTerm>"
     Examples:
       | searchTerm |
       | nike       |
+      | puma       |
 
